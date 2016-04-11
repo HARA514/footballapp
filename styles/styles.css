@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	.ui-icon-myapp-premierleague {
+		background-image: url(../img/premierleague.png)
+		background-size: 18px 18px;
+	}
+	...more HD icon rules go here...
+}
