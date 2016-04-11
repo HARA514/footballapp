@@ -7,10 +7,10 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Footballs Players App</name>
+    <name>Football Players Application</name>
 
     <description>
-        Football Players application that allows users to select their preferred football club to see it's current players. 
+        The Football Players Application allows users to see the current players at their preferred football club. 
     </description>
 
     <author href="https://build.phonegap.com" email="HARA5_14@uni.worc.ac.uk">
