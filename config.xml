@@ -17,6 +17,10 @@
         Alex Harley 
     </author>
 	
-	<platform name="ios" />
+	<platform name="ios" >
+		<icon src="footballapplogo.png" width="180" height="180" />
+		<preference name="orientation" value="default" />
+		<preference name="prerendered-icon" value="true" />
+	</platform>
 
 </widget>
