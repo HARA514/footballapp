@@ -18,9 +18,9 @@ $(document).on('pageshow', '#premierleague', function(event) {
 	<!-- you can use a live parser to inspect the contents of the JSON
 	<!-- http://json.parser.online.fr/ -->
 	var teams= JSON.parse(xmlhttp.responseText);
-	
-	alert(teams.teams[0].name);
-	
+
+	$('#teams').append("<li>" + teams.teams[0].name + "</li>");
+	$('#teams').trigger("create");	
 	
 	
 	<!-- Define Ractive binding -->
