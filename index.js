@@ -2,6 +2,8 @@
 
 var feedURL = "http://api.football-data.org/v1/soccerseasons/398/teams";
 
+var selectedTeamURL;
+
 $(document).on('pageshow', '#premierleague', function(event) {
 	
 	
@@ -17,7 +19,8 @@ $(document).on('pageshow', '#premierleague', function(event) {
 	<!-- http://json.parser.online.fr/ -->
 	var teams= JSON.parse(xmlhttp.responseText);
 	
-	alert(teams);
+	alert(teams.teams[0].name);
+	
 	
 	
 	<!-- Define Ractive binding -->
