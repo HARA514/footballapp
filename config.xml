@@ -18,7 +18,7 @@
     </author>
 	
 	<platform name="ios" >
-		<icon src="footballapplogo.png" platform name="ios" />
+		<icon src="footballapplogo.png" platform="ios" width="180" height="180" />
 		<preference name="orientation" value="default" />
 		<preference name="prerendered-icon" value="true" />
 	</platform>
