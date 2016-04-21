@@ -19,7 +19,7 @@ $(document).on('pageshow', '#premierleague', function(event) {
 	<!-- http://json.parser.online.fr/ -->
 	var teams= JSON.parse(xmlhttp.responseText);
 
-	$('#teams').append("<li>" + teams.teams[0].name + "</li>");
+	$('#teams').append("<li class='list-group-item'>" + teams.teams[0].name + "</li>");
 	$('#teams').trigger("create");	
 	
 	
