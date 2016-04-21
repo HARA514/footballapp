@@ -18,7 +18,7 @@
     </author>
 	
 	<platform name="ios" >
-<icon src="icon.png" platform="ios" width="60" height="60" />
+		<icon src="icon.png" platform="ios" width="60" height="60" />
 		<preference name="orientation" value="default" />
 		<preference name="prerendered-icon" value="true" />
 	</platform>
