@@ -19,6 +19,7 @@
 	
 	<platform name="ios" >
 		<icon src="icon.png" platform="ios" width="60" height="60" />
+		<splash src="splash.png" platform="ios" width="320" height="480" />
 		<preference name="orientation" value="default" />
 		<preference name="prerendered-icon" value="true" />
 	</platform>
