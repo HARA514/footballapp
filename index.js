@@ -1,6 +1,7 @@
 // JavaScript Document
 var text = "";
 var i;
+var teams = ["Manchester United", "Liverpool", "Leicester"];
 var feedURL = "http://api.football-data.org/v1/soccerseasons/398/teams";
 
 var selectedTeamURL;
@@ -15,7 +16,7 @@ $(document).on('pageshow', '#premierleague', function(event) {
 
 	$('#teams').append(teams.teams[1].name);
 	
-	for (i = 0; i < teams.teams[i].name.length; i++) { 
+	for (i = 0; i < teams[i].name.length; i++) { 
     text += name[i];
 	
 	document.getElementById("test").innerHTML = text;
