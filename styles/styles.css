@@ -2,9 +2,10 @@
 /* CSS Document */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-	.ui-icon-myapp-premierleague {
-		background-image: url(../img/premierleague.png)
-		background-size: 18px 18px;
-	}
-	...more HD icon rules go here...
+
+#lang_de_button .ui-icon { 
+    background: url(img/premierleague.png) 50% 50% no-repeat;
+    background-size: 16px 11px;
+    box-shadow: none!important;
+    border-radius: 0px !important;
 }
