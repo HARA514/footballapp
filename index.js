@@ -5,6 +5,9 @@ var selectedTeamURL;
 
 $(document).on('pageshow', '#premierleague', function(event) {
 	
+	console.log("premier page shown");
+	alert("premier page shown");
+	
 	var xmlhttp=new XMLHttpRequest();
 	xmlhttp.open("GET", feedURL, false);
 	xmlhttp.send();
@@ -16,7 +19,7 @@ $(document).on('pageshow', '#premierleague', function(event) {
 	
 	
 	
-	for (i = 0; i < teamsObject.teams.length; i++) { 
+	for ( var i = 0; i < teamsObject.teams.length; i++) { 
     	$('#teams').append(teamsObject.teams[i].name);
 	}
 		
