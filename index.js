@@ -1,5 +1,4 @@
 // JavaScript Document
-
 var feedURL = "http://api.football-data.org/v1/soccerseasons/398/teams";
 
 var selectedTeamURL;
@@ -10,13 +9,16 @@ $(document).on('pageshow', '#premierleague', function(event) {
 	xmlhttp.open("GET", feedURL, false);
 	xmlhttp.send();
 		
-	var teams= JSON.parse(xmlhttp.responseText);
+	var teamsObject= JSON.parse(xmlhttp.responseText);
 
-	$('#teams').append(teams.teams[0].name);
+	$('#teams').append(teamsObject.teams[1].name);
 	
-	for (i = 0; i < teams[i].name.length; i++) { 
-	$('#test').append(text += name[i]);
-}
+	
+	
+	
+	for (i = 0; i < teamsObject.teams.length; i++) { 
+    	$('#teams').append(teamsObject.teams[i].name);
+	}
 		
 	
 	
