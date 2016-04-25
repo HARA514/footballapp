@@ -14,14 +14,14 @@ $(document).on('pageshow', '#premierleague', function(event) {
 		
 	var teamsObject= JSON.parse(xmlhttp.responseText);
 
-	$('#teams').append(teamsObject.teams[1].name);
+	$('#teams').append(teamsObject.teams[0].name);
 	
 	
 	
-	
-	for ( var i = 0; i < teamsObject.teams.length; i++) { 
-    	$('#teams').append(teamsObject.teams[i].name);
-	}
+	// Code below runs through each team in the array from the Football API.
+//for ( var i = 0; i < teamsObject.teams.length; i++) { 
+//    	$('#teams').append(teamsObject.teams[i].name);
+//}
 		
 	
 	
