@@ -1,6 +1,5 @@
-var manchesterUnited = "http://www.footballpictures.net/data/media/132/manchester_united_logo_2.jpg";
+var manchesterUnited = "http://www.manutd.com/~/media/D8AA2D18466A484EBCD5E7616B8C3E1F.ashx?h=150&w=150";
 var chelsea = "http://fullhdpictures.com/wp-content/uploads/2015/10/Chelsea-Logos.jpg";
-var everton = "http://www.evertonfc.com/content/history/d2qsy1h1438jt3.cloudfront.net///d2qsy1h1438jt3.cloudfront.net/~/media/6e7d10673424491d9439e6cc208f7882.jpg?la=en";
 
 var ManchesterUnited = [
     {
@@ -309,9 +308,6 @@ var ManchesterUnited = [
       "Foot": " ",
 	  "Team" : manchesterUnited
     },
-	];
-	
-	var everton = [
     {
       "HA": "H",
       "Pos": "Goalkeeper",
@@ -327,7 +323,7 @@ var ManchesterUnited = [
       "Birthplace": "North Brunswick",
       "Nationality": "USA",
       "Foot": " ",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -344,7 +340,7 @@ var ManchesterUnited = [
       "Birthplace": "Manchester",
       "Nationality": "England",
       "Foot": " ",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -361,7 +357,7 @@ var ManchesterUnited = [
       "Birthplace": "",
       "Nationality": "",
       "Foot": " ",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -379,7 +375,7 @@ var ManchesterUnited = [
       "Birthplace": "Hemsworth",
       "Nationality": "England",
       "Foot": " ",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -396,7 +392,7 @@ var ManchesterUnited = [
       "Birthplace": "",
       "Nationality": "",
       "Foot": " ",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -413,7 +409,7 @@ var ManchesterUnited = [
       "Birthplace": "",
       "Nationality": "",
       "Foot": " ",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -430,7 +426,7 @@ var ManchesterUnited = [
       "Birthplace": "",
       "Nationality": "",
       "Foot": " ",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -447,7 +443,7 @@ var ManchesterUnited = [
       "Birthplace": "",
       "Nationality": "",
       "Foot": " ",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -464,7 +460,7 @@ var ManchesterUnited = [
       "Birthplace": "",
       "Nationality": "",
       "Foot": " ",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -481,7 +477,7 @@ var ManchesterUnited = [
       "Birthplace": "Liverpool",
       "Nationality": "England",
       "Foot": " ",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -498,7 +494,7 @@ var ManchesterUnited = [
       "Birthplace": "Antwerp",
       "Nationality": "Belgium",
       "Foot": " ",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -515,7 +511,7 @@ var ManchesterUnited = [
       "Birthplace": "",
       "Nationality": "",
       "Foot": " ",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -532,7 +528,7 @@ var ManchesterUnited = [
       "Birthplace": "Liège",
       "Nationality": "Belgium",
       "Foot": " ",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -549,7 +545,7 @@ var ManchesterUnited = [
       "Birthplace": "Anyama",
       "Nationality": "Côte d'Ivoire",
       "Foot": "R",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -566,7 +562,7 @@ var ManchesterUnited = [
       "Birthplace": "Madrid",
       "Nationality": "Spain",
       "Foot": "R",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -583,7 +579,7 @@ var ManchesterUnited = [
       "Birthplace": "Girona",
       "Nationality": "Spain",
       "Foot": "R",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -600,7 +596,7 @@ var ManchesterUnited = [
       "Birthplace": "Mendoza",
       "Nationality": "Argentina",
       "Foot": "L",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     },
     {
       "HA": "H",
@@ -617,7 +613,7 @@ var ManchesterUnited = [
       "Birthplace": "",
       "Nationality": "",
       "Foot": " ",
-	  "Team" : everton
+	  "Team" : manchesterUnited
     }
   ];
 
@@ -628,16 +624,6 @@ $(document).on("pagecreate","#manchesterUnited", onPageCreated);
 function onPageCreated() {
 	ractive = new Ractive({
 	el: '#listManu',
-	
-	template: '#template',
-	
-	data: { listManu: ManchesterUnited}
-});
-
-$(document).on("pagecreate","#everton", onPageCreated);
-function onPageCreated() {
-	ractive = new Ractive({
-	el: '#listEverton',
 	
 	template: '#template',
 	
