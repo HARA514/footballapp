@@ -1,7 +1,7 @@
-var manchesterUnited = "http://www.manutd.com/~/media/D8AA2D18466A484EBCD5E7616B8C3E1F.ashx?h=150&w=150";
-var chelsea = "http://fullhdpictures.com/wp-content/uploads/2015/10/Chelsea-Logos.jpg";
+// JSON Document
 
-var ManchesterUnited = [
+{
+  "players": [
     {
       "HA": "A",
       "Pos": "Goalkeeper",
@@ -16,8 +16,7 @@ var ManchesterUnited = [
       "PosSide": "",
       "Birthplace": "Madrid",
       "Nationality": "Spain",
-      "Foot": "R",
-	  "Team" : manchesterUnited
+      "Foot": "R"
     },
     {
       "HA": "A",
@@ -33,8 +32,7 @@ var ManchesterUnited = [
       "PosSide": "Left/Right",
       "Birthplace": "Legnano",
       "Nationality": "Italy",
-      "Foot": "L",
-	  "Team" : manchesterUnited
+      "Foot": "L"
     },
     {
       "HA": "A",
@@ -50,8 +48,7 @@ var ManchesterUnited = [
       "PosSide": "Centre",
       "Birthplace": "Greenwich",
       "Nationality": "England",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "A",
@@ -67,8 +64,7 @@ var ManchesterUnited = [
       "PosSide": "Left/Centre",
       "Birthplace": "La Plata",
       "Nationality": "Argentina",
-      "Foot": "L",
-	  "Team" : manchesterUnited
+      "Foot": "L"
     },
     {
       "HA": "A",
@@ -84,8 +80,7 @@ var ManchesterUnited = [
       "PosSide": "Centre",
       "Birthplace": "Preston",
       "Nationality": "England",
-      "Foot": "R",
-	  "Team" : manchesterUnited
+      "Foot": "R"
     },
     {
       "HA": "A",
@@ -101,8 +96,7 @@ var ManchesterUnited = [
       "PosSide": "Centre",
       "Birthplace": "Kolbermoor",
       "Nationality": "Germany",
-      "Foot": "R",
-	  "Team" : manchesterUnited
+      "Foot": "R"
     },
     {
       "HA": "A",
@@ -118,8 +112,7 @@ var ManchesterUnited = [
       "PosSide": "Centre",
       "Birthplace": "Obernai",
       "Nationality": "France",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "A",
@@ -135,8 +128,7 @@ var ManchesterUnited = [
       "PosSide": "Left/Centre/Right",
       "Birthplace": "Burgos",
       "Nationality": "Spain",
-      "Foot": "L",
-	  "Team" : manchesterUnited
+      "Foot": "L"
     },
     {
       "HA": "A",
@@ -152,8 +144,7 @@ var ManchesterUnited = [
       "PosSide": "Left/Centre/Right",
       "Birthplace": "Bilbao",
       "Nationality": "Spain",
-      "Foot": "B",
-	  "Team" : manchesterUnited
+      "Foot": "B"
     },
     {
       "HA": "A",
@@ -169,8 +160,7 @@ var ManchesterUnited = [
       "PosSide": "Left/Centre/Right",
       "Birthplace": "",
       "Nationality": "",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "A",
@@ -186,8 +176,7 @@ var ManchesterUnited = [
       "PosSide": "Left/Centre/Right",
       "Birthplace": "Liverpool",
       "Nationality": "England",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "A",
@@ -203,8 +192,7 @@ var ManchesterUnited = [
       "PosSide": "Centre",
       "Birthplace": "Wallsend",
       "Nationality": "England",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "A",
@@ -220,8 +208,7 @@ var ManchesterUnited = [
       "PosSide": "Centre",
       "Birthplace": "Brussels",
       "Nationality": "Belgium",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "A",
@@ -237,8 +224,7 @@ var ManchesterUnited = [
       "PosSide": "Centre",
       "Birthplace": "Amsterdam",
       "Nationality": "Netherlands",
-      "Foot": "B",
-	  "Team" : manchesterUnited
+      "Foot": "B"
     },
     {
       "HA": "A",
@@ -254,8 +240,7 @@ var ManchesterUnited = [
       "PosSide": "",
       "Birthplace": "",
       "Nationality": "",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "A",
@@ -271,8 +256,7 @@ var ManchesterUnited = [
       "PosSide": "Left/Right",
       "Birthplace": "Moordrecht",
       "Nationality": "Netherlands",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "A",
@@ -288,8 +272,7 @@ var ManchesterUnited = [
       "PosSide": "Left/Right",
       "Birthplace": "",
       "Nationality": "",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "A",
@@ -305,8 +288,7 @@ var ManchesterUnited = [
       "PosSide": "Left/Centre/Right",
       "Birthplace": "",
       "Nationality": "Belgium",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "H",
@@ -322,8 +304,7 @@ var ManchesterUnited = [
       "PosSide": "",
       "Birthplace": "North Brunswick",
       "Nationality": "USA",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "H",
@@ -339,8 +320,7 @@ var ManchesterUnited = [
       "PosSide": "Centre",
       "Birthplace": "Manchester",
       "Nationality": "England",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "H",
@@ -356,8 +336,7 @@ var ManchesterUnited = [
       "PosSide": "Right",
       "Birthplace": "",
       "Nationality": "",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "H",
@@ -366,7 +345,6 @@ var ManchesterUnited = [
       "PID": 97299,
       "Name": "John Stones",
       "DOB": "1994-05-28T00:00:00",
-
       "Ht": 188,
       "Wt": 70,
       "Cntry": "England",
@@ -374,8 +352,7 @@ var ManchesterUnited = [
       "PosSide": "Right",
       "Birthplace": "Hemsworth",
       "Nationality": "England",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "H",
@@ -391,8 +368,7 @@ var ManchesterUnited = [
       "PosSide": "Left/Centre",
       "Birthplace": "",
       "Nationality": "",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "H",
@@ -408,8 +384,7 @@ var ManchesterUnited = [
       "PosSide": "Centre",
       "Birthplace": "",
       "Nationality": "",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "H",
@@ -425,8 +400,7 @@ var ManchesterUnited = [
       "PosSide": "Right",
       "Birthplace": "",
       "Nationality": "",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "H",
@@ -442,8 +416,7 @@ var ManchesterUnited = [
       "PosSide": "Centre",
       "Birthplace": "",
       "Nationality": "",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "H",
@@ -459,8 +432,7 @@ var ManchesterUnited = [
       "PosSide": "Centre",
       "Birthplace": "",
       "Nationality": "",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "H",
@@ -476,8 +448,7 @@ var ManchesterUnited = [
       "PosSide": "Left/Centre/Right",
       "Birthplace": "Liverpool",
       "Nationality": "England",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "H",
@@ -493,8 +464,7 @@ var ManchesterUnited = [
       "PosSide": "Centre",
       "Birthplace": "Antwerp",
       "Nationality": "Belgium",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "H",
@@ -510,8 +480,7 @@ var ManchesterUnited = [
       "PosSide": "Centre/Right",
       "Birthplace": "",
       "Nationality": "",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "H",
@@ -527,8 +496,7 @@ var ManchesterUnited = [
       "PosSide": "Left/Right",
       "Birthplace": "Liège",
       "Nationality": "Belgium",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     },
     {
       "HA": "H",
@@ -544,8 +512,7 @@ var ManchesterUnited = [
       "PosSide": "Centre",
       "Birthplace": "Anyama",
       "Nationality": "Côte d'Ivoire",
-      "Foot": "R",
-	  "Team" : manchesterUnited
+      "Foot": "R"
     },
     {
       "HA": "H",
@@ -561,8 +528,7 @@ var ManchesterUnited = [
       "PosSide": "",
       "Birthplace": "Madrid",
       "Nationality": "Spain",
-      "Foot": "R",
-	  "Team" : manchesterUnited
+      "Foot": "R"
     },
     {
       "HA": "H",
@@ -578,8 +544,7 @@ var ManchesterUnited = [
       "PosSide": "Left/Centre/Right",
       "Birthplace": "Girona",
       "Nationality": "Spain",
-      "Foot": "R",
-	  "Team" : manchesterUnited
+      "Foot": "R"
     },
     {
       "HA": "H",
@@ -595,8 +560,7 @@ var ManchesterUnited = [
       "PosSide": "Left",
       "Birthplace": "Mendoza",
       "Nationality": "Argentina",
-      "Foot": "L",
-	  "Team" : manchesterUnited
+      "Foot": "L"
     },
     {
       "HA": "H",
@@ -612,21 +576,7 @@ var ManchesterUnited = [
       "PosSide": "Centre",
       "Birthplace": "",
       "Nationality": "",
-      "Foot": " ",
-	  "Team" : manchesterUnited
+      "Foot": " "
     }
-  ];
-
-
-// ----------------------------------------------------------- //
-
-$(document).on("pagecreate","#manchesterUnited", onPageCreated);
-function onPageCreated() {
-	ractive = new Ractive({
-	el: '#listManu',
-	
-	template: '#template',
-	
-	data: { listManu: ManchesterUnited}
-});
+  ]
 }
