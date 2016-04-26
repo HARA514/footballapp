@@ -14,6 +14,10 @@
   {{#each listManu:num}}
   <li id="{{num}}"><a href="#"><img src="{{Team}}"width="65px" height="65px" style="margin:5px; border:1px solid #021a40;"> {{Name}} <br> Number: {{Jrsy}} </a></li>
   {{/each}}
+  <ul data-role="listview" id="listEverton" data-filter="true">
+  {{#each listEverton:num}}
+  <li id="{{num}}"><a href="#"><img src="{{Team}}"width="65px" height="65px" style="margin:5px; border:1px solid #021a40;"> {{Name}} <br> Number: {{Jrsy}} </a></li>
+  {{/each}}
   </ul>
   
 </script>
@@ -63,8 +67,8 @@
 <!-- CHELSEA FC -->
 <li><a href="#"><img src="http://www.sportsbookgurus.com/news/wp-content/uploads/2011/03/chelsea1-300x300.jpg" width="65px" height="65px"  style="margin:5px; border:1px solid #021a40;">  <br>Chelsea FC </a> </li>
 
-<!-- MANCHESTER CITY FC -->
-<li><a href="#"><img src="http://mcivta.com/wp0001/wp-content/uploads/2003/03/mcfc2-badge.jpeg" width="65px" height="65px"  style="margin:5px; border:1px solid #021a40;">  <br>Manchester City FC</a> </li>
+<!-- EVERTON FC -->
+<li><a href="#everton"><img src="http://www.evertonfc.com/content/history/d2qsy1h1438jt3.cloudfront.net///d2qsy1h1438jt3.cloudfront.net/~/media/6e7d10673424491d9439e6cc208f7882.jpg?la=en" width="65px" height="65px"  style="margin:5px; border:1px solid #021a40;">  <br>Everton FC</a> </li>
 
 
 
@@ -114,6 +118,26 @@
     <h4>Star Football Players 2016 ©</h4>
   </div>
 </div>
+
+
+<div data-role="page" data-theme="e" id="everton">
+  <div data-role="header" data-position="fixed">
+    <h1>Team Info</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home" data-role="button" data-icon="home">Home</a></li>
+        <li><a href="#premierleague" data-role="button" data-icon="star">Premier League</a></li>
+        <li><a href="#about" data-icon="info">About</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="content">
+<div id="listEverton"> </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Star Football Players 2016 ©</h4>
+  </div>
+</div>
+
 
 <script src='http://cdn.ractivejs.org/latest/ractive.js'></script> 
 </body>
