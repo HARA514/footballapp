@@ -36,7 +36,7 @@ function onPageCreated() {
 	ractive = new Ractive({
 	el: '#listManCity',
 	
-	template: '#template',
+	template: '#template2',
 	
 	data: {listManCity: myTeam}
 });
