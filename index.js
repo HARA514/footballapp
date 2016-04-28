@@ -42,5 +42,25 @@ function onPageCreated2() {
 });
 }
 
+$(document).on("pagecreate","#chelsea", onPageCreated3);
+function onPageCreated3() {
 
+	var chelseaFeed = "http://api.football-data.org/v1/teams/61/players";
+
+	var xmlhttp=new XMLHttpRequest();
+	xmlhttp.open("GET", chelseaFeed, false);
+	xmlhttp.send();
+		
+	var teamsObject= JSON.parse(xmlhttp.responseText);
+
+	var myTeam = teamsObject.players;
+
+	ractive3 = new Ractive({
+	el: '#listManCity',
+	
+	template: '#template',
+	
+	data: {listChelsea: myTeam}
+});
+}
 

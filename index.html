@@ -17,8 +17,14 @@
   {{/each}}
   </ul>
   
- <ul data-role="listview" id="listManCity" data-filter="true">
+ <ul data-role="listview" id="listManCity">
   {{#each listManCity:num}}
+ <li>{{name}}<br>Number: {{jerseyNumber}}</li>
+  {{/each}}
+  </ul>
+  
+  <ul data-role="listview" id="listChelsea">
+  {{#each listChelsea:num}}
  <li>{{name}}<br>Number: {{jerseyNumber}}</li>
   {{/each}}
   </ul>
@@ -73,7 +79,7 @@
 <li><a href="#manchesterUnited"><img src="http://www.footballpictures.net/data/media/132/manchester_united_logo_2.jpg" width="65px" height="65px"  style="margin:5px; border:1px solid #021a40;">  <br>Manchester United FC</a> </li>
 
 <!-- CHELSEA FC -->
-<li><a href="#"><img src="http://www.sportsbookgurus.com/news/wp-content/uploads/2011/03/chelsea1-300x300.jpg" width="65px" height="65px"  style="margin:5px; border:1px solid #021a40;">  <br>Chelsea FC </a> </li>
+<li><a href="#chelsea"><img src="http://www.sportsbookgurus.com/news/wp-content/uploads/2011/03/chelsea1-300x300.jpg" width="65px" height="65px"  style="margin:5px; border:1px solid #021a40;">  <br>Chelsea FC </a> </li>
 
 
 </ul>
@@ -140,6 +146,26 @@
   <div data-role="footer" data-position="fixed">
     <h4>Star Football Players 2016 ©</h4>
   </div>
+</div>
+</div>
+
+<div data-role="page" data-theme="e" id="chelsea">
+  <div data-role="header" data-position="fixed">
+    <h1>About</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home" data-role="button" data-icon="home">Home</a></li>
+        <li><a href="#premierleague" data-role="button" data-icon="star">Premier League</a></li>
+        <li><a href="#about" data-icon="info" data-theme="e">About</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="content">
+  <div id="listChelsea"> </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Star Football Players 2016 ©</h4>
+  </div>
+</div>
 </div>
 
 
