@@ -56,7 +56,7 @@ function onPageCreated3() {
 	var myTeam = teamsObject.players;
 
 	ractive3 = new Ractive({
-	el: '#listManCity',
+	el: '#listChelsea',
 	
 	template: '#template',
 	
