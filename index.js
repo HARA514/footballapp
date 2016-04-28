@@ -31,14 +31,14 @@ function onPageCreated2() {
 		
 	var teamsObject= JSON.parse(xmlhttp.responseText);
 
-	var myTeam2 = teamsObject.players;
+	var myTeam = teamsObject.players;
 
-	ractive = new Ractive({
+	ractive2 = new Ractive({
 	el: '#listManCity',
 	
 	template: '#template',
 	
-	data: {listManCity: myTeam2}
+	data: {listManCity: myTeam}
 });
 }
 
