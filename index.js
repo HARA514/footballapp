@@ -1,4 +1,4 @@
-$(document).on("pagecreate","#manchesterUnited", onPageCreated);
+$(document).on("pageinit","#manchesterUnited", onPageCreated);
 function onPageCreated() {
 
 	var manchesterUnitedFeed = "http://api.football-data.org/v1/teams/66/players";
@@ -20,7 +20,7 @@ function onPageCreated() {
 });
 }
 
-$(document).on("pagecreate","#manchesterCity", onPageCreated2);
+$(document).on("pageinit","#manchesterCity", onPageCreated2);
 function onPageCreated2() {
 
 	var manchesterCityFeed = "http://api.football-data.org/v1/teams/65/players";
@@ -42,7 +42,7 @@ function onPageCreated2() {
 });
 }
 
-$(document).on("pagecreate","#chelsea", onPageCreated3);
+$(document).on("pageinit","#chelsea", onPageCreated3);
 function onPageCreated3() {
 
 	var chelseaFeed = "http://api.football-data.org/v1/teams/61/players";
@@ -63,4 +63,5 @@ function onPageCreated3() {
 	data: {listChelsea: myTeam}
 });
 }
+
 
