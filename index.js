@@ -20,8 +20,8 @@ function onPageCreated() {
 });
 }
 
-$(document).on("pagecreate","#manchesterCity", onPageCreated);
-function onPageCreated() {
+$(document).on("pagecreate","#manchesterCity", onPageCreated2);
+function onPageCreated2() {
 
 	var manchesterCityFeed = "http://api.football-data.org/v1/teams/65/players";
 
@@ -36,7 +36,7 @@ function onPageCreated() {
 	ractive = new Ractive({
 	el: '#listManCity',
 	
-	template: '#template2',
+	template: '#template',
 	
 	data: {listManCity: myTeam}
 });

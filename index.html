@@ -10,22 +10,21 @@
 <script src="index.js" type="text/javascript"></script>
 <script src="manutdplayers.js"></script>
 <script id='template' type='text/ractive'>
+
 <ul data-role="listview" id="listManu" data-filter="true">
   {{#each listManu:num}}
-  <!--<li id="{{num}}"><a href="#"><img src="{{Team}}"width="65px" height="65px" style="margin:5px; border:1px solid #021a40;"> {{Name}} <br> Number: {{Jrsy}} </a></li>-->
  <li>{{name}}<br>Number: {{jerseyNumber}}</li>
   {{/each}}
   </ul>
+  
+ <ul data-role="listview" id="listManCity" data-filter="true">
+  {{#each listManCity:num}}
+ <li>{{name}}<br>Number: {{jerseyNumber}}</li>
+  {{/each}}
+  </ul>
+  
 </script>
 
-<script id='template2' type='text/ractive'>
-<ul data-role="listview" id="listManCity" data-filter="true">
-  {{#each listManCity:num}}
-  <!--<li id="{{num}}"><a href="#"><img src="{{Team}}"width="65px" height="65px" style="margin:5px; border:1px solid #021a40;"> {{Name}} <br> Number: {{Jrsy}} </a></li>-->
- <li>{{name}}<br>Number: {{jerseyNumber}}</li>
-  {{/each}}
-  </ul>
-</script>
 
 </head>
 
